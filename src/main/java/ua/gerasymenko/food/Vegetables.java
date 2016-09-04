@@ -1,4 +1,4 @@
-package main.java.food;
+package ua.gerasymenko.food;
 
 /**
  * This abstract class describes the basic components of vegetables,
@@ -62,4 +62,6 @@ public abstract class Vegetables {
     public String toString() {
         return name;
     }
+
+
 }

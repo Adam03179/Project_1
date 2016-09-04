@@ -1,7 +1,7 @@
-package main.java.command;
+package ua.gerasymenko.command;
 
-import main.java.ConsoleHelper;
-import main.java.Chef;
+import ua.gerasymenko.ConsoleHelper;
+import ua.gerasymenko.Chef;
 
 import java.io.IOException;
 

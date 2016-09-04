@@ -1,8 +1,8 @@
-package main.java.command;
+package ua.gerasymenko.command;
 
-import main.java.ConsoleHelper;
-import main.java.Chef;
-import main.java.food.Vegetables;
+import ua.gerasymenko.ConsoleHelper;
+import ua.gerasymenko.Chef;
+import ua.gerasymenko.food.Vegetables;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.command;
+package ua.gerasymenko.command;
 
 import java.io.IOException;
 

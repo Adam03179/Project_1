@@ -1,26 +1,26 @@
-package main.java.food;
+package ua.gerasymenko.food;
 
 /**
- * This class describes options of cabbage, its name and number of calories
+ * This class describes options of beet, its name and number of calories
  *
  * @author Igor Gerasymenko
  * @version 1.0
  */
 
-public class Cabbage extends Vegetables {
+public class Beet extends Vegetables {
 
     /**
      * the name of this vegetable
      */
-    private final String name = "cabbage";
+    private final String name = "beet";
 
     /**
-     * Creates the Cabbage object, with the weight specified in the parameters.
+     * Creates the Beet object, with the weight specified in the parameters.
      *
      * @param weightGram - number of grams
      */
-    public Cabbage(double weightGram) {
-        super(27, weightGram);
+    public Beet(double weightGram) {
+        super(49, weightGram);
     }
 
     @Override

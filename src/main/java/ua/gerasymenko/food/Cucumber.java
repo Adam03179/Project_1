@@ -1,4 +1,4 @@
-package main.java.food;
+package ua.gerasymenko.food;
 
 /**
  * This class describes options of cucumber, its name and number of calories

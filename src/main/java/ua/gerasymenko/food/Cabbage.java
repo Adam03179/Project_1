@@ -1,25 +1,26 @@
-package main.java.food;
+package ua.gerasymenko.food;
 
 /**
- * This class describes options of potato, its name and number of calories
+ * This class describes options of cabbage, its name and number of calories
  *
  * @author Igor Gerasymenko
  * @version 1.0
  */
-public class Potato extends Vegetables {
+
+public class Cabbage extends Vegetables {
 
     /**
      * the name of this vegetable
      */
-    private final String name = "potato";
+    private final String name = "cabbage";
 
     /**
-     * Creates the Potato object, with the weight specified in the parameters.
+     * Creates the Cabbage object, with the weight specified in the parameters.
      *
      * @param weightGram - number of grams
      */
-    public Potato(double weightGram) {
-        super(77, weightGram);
+    public Cabbage(double weightGram) {
+        super(27, weightGram);
     }
 
     @Override
@@ -31,7 +32,6 @@ public class Potato extends Vegetables {
     public double getWeightGram() {
         return super.getWeightGram();
     }
-
 
     @Override
     public double getCaloriesInHundredGrams() {

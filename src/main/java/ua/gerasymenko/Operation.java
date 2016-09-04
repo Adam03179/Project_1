@@ -1,4 +1,4 @@
-package main.java;
+package ua.gerasymenko;
 
 /**
  * The Enumeration consist from types of operations, that user can do

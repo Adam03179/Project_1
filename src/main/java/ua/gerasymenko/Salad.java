@@ -1,6 +1,6 @@
-package main.java;
+package ua.gerasymenko;
 
-import main.java.food.Vegetables;
+import ua.gerasymenko.food.Vegetables;
 
 import java.util.*;
 
@@ -18,12 +18,12 @@ public class Salad {
     private List<Vegetables> vegetables;
 
     /**
-     * Salad name
+     * ua.gerasymenko.Salad name
      */
     private String name;
 
     /**
-     * Creates empty Salad object with name
+     * Creates empty ua.gerasymenko.Salad object with name
      */
     public Salad() {
         this.name = "";
@@ -31,7 +31,7 @@ public class Salad {
     }
 
     /**
-     * Creates Salad object with name
+     * Creates ua.gerasymenko.Salad object with name
      *
      * @param name - salad name
      */

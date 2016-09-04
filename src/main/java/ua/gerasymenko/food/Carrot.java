@@ -1,25 +1,26 @@
-package main.java.food;
+package ua.gerasymenko.food;
 
 /**
- * This class describes options of tomato, its name and number of calories
+ * This class describes options of carrot, its name and number of calories
  *
  * @author Igor Gerasymenko
  * @version 1.0
  */
-public class Tomato extends Vegetables {
+
+public class Carrot extends Vegetables {
 
     /**
      * the name of this vegetable
      */
-    private final String name = "tomato";
+    private final String name = "carrot";
 
     /**
-     * Creates the Tomato object, with the weight specified in the parameters.
+     * Creates the Carrot object, with the weight specified in the parameters.
      *
      * @param weightGram - number of grams
      */
-    public Tomato(double weightGram) {
-        super(18, weightGram);
+    public Carrot(double weightGram) {
+        super(41, weightGram);
     }
 
     @Override
@@ -27,12 +28,10 @@ public class Tomato extends Vegetables {
         return super.getCalories();
     }
 
-
     @Override
     public double getWeightGram() {
         return super.getWeightGram();
     }
-
 
     @Override
     public double getCaloriesInHundredGrams() {

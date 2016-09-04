@@ -1,6 +1,6 @@
-package main.java.command;
+package ua.gerasymenko.command;
 
-import main.java.ConsoleHelper;
+import ua.gerasymenko.ConsoleHelper;
 
 /**
  * This class describes methods of realisation of command - "exit"
@@ -9,7 +9,7 @@ import main.java.ConsoleHelper;
  * @author Igor Gerasymenko
  * @version 1.0
  */
-public class ExitCommand implements main.java.command.Command {
+public class ExitCommand implements Command {
 
     /**
      * Realisation of command - "exit"

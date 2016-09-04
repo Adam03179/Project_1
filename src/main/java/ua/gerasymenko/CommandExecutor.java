@@ -1,6 +1,6 @@
-package main.java;
+package ua.gerasymenko;
 
-import main.java.command.*;
+import ua.gerasymenko.command.*;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -21,7 +21,7 @@ public class CommandExecutor {
     private static final Map<Operation, Command> allKnownCommandsMap
             = new HashMap<>();
 
-    /** Saving all operations in the Map */
+    // Saving all operations in the Map
     static {
         allKnownCommandsMap.put(Operation.CHOICE, new ChoiceCommand());
         allKnownCommandsMap.put(Operation.PRINT, new PrintCommand());

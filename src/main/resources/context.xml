@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="true">
+
+
+    <bean id="saladSpring" class="ua.gerasymenko.Salad">
+        <constructor-arg type="java.lang.String" value="SaladSpring"/>
+    </bean>
+
+    <bean id="saladAutumn" class="ua.gerasymenko.Salad">
+        <constructor-arg type="java.lang.String" value="SaladAutumn"/>
+    </bean>
+
+    <bean id="saladSummer" class="ua.gerasymenko.Salad">
+        <constructor-arg type="java.lang.String" value="SaladSummer"/>
+    </bean>
+
+    <bean id="tomato120" class="ua.gerasymenko.food.Tomato">
+        <constructor-arg value="120"/>
+    </bean>
+
+    <bean id="cucumber100" class="ua.gerasymenko.food.Cucumber">
+        <constructor-arg value="100"/>
+    </bean>
+
+    <bean id="onion50" class="ua.gerasymenko.food.Onion">
+        <constructor-arg value="50"/>
+    </bean>
+
+    <bean id="beet320" class="ua.gerasymenko.food.Beet">
+        <constructor-arg value="320"/>
+    </bean>
+
+    <bean id="carrot200" class="ua.gerasymenko.food.Carrot">
+        <constructor-arg value="200"/>
+    </bean>
+
+    <bean id="onion80" class="ua.gerasymenko.food.Onion">
+        <constructor-arg value="80"/>
+    </bean>
+
+    <bean id="potato120" class="ua.gerasymenko.food.Potato">
+        <constructor-arg value="120"/>
+    </bean>
+
+
+</beans>
